@@ -2,6 +2,7 @@ import { Inter, IBM_Plex_Mono } from 'next/font/google'
 import './globals.css'
 import { ReactNode } from 'react'
 import { Header } from './components/header'
+import { HeroSection } from './components/pages/hero-section'
 
 const NavItems = [
   {
