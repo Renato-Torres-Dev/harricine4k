@@ -2,7 +2,7 @@ import { Inter, IBM_Plex_Mono } from 'next/font/google'
 import './globals.css'
 import { ReactNode } from 'react'
 import { Header } from './components/header'
-import { HeroSection } from './components/pages/hero-section'
+import { Footer } from './components/footer'
 
 const NavItems = [
   {
@@ -28,6 +28,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
       <body>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   )
