@@ -14,7 +14,7 @@ export const HeroSection = () => {
           whileInView={{ opacity: 1 }}
           exit={{ opacity: 0 }}
         >
-          <p className="font-master text-6xl text-red-600 font-bold stroke-black mt-8">
+          <p className="font-master text-5xl text-red-600 font-bold stroke-black mt-8 leading-normal">
             O MELHOR SERVIÇO DE STREAMING DO BRASIL DISPONÍVEL PARA VOCÊ!
           </p>
         </motion.div>
