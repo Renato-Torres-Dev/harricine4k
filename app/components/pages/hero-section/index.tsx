@@ -6,7 +6,7 @@ import { Button } from "../../button"
 
 export const HeroSection = () => {
   return (
-    <section className="w-full lg:h-[883px] bg-hero-image bg-cover bg-center bg-no-repeat flex flex-col justify-center pb-10 sm:pb-32 py-32 lg:pb-[170px]">
+    <section className="w-full lg:h-[883px] bg-hero-image bg-cover bg-center bg-no-repeat flex flex-col justify-center pb-10 sm:pb-32 lg:py-32 py-12 lg:pb-[170px]">
       <div className="container flex items-center justify-between">
         <motion.div
           className="w-full"
@@ -14,7 +14,7 @@ export const HeroSection = () => {
           whileInView={{ opacity: 1 }}
           exit={{ opacity: 0 }}
         >
-          <p className="font-master text-5xl text-center text-red-600 font-bold stroke-black mt-8 leading-normal">
+          <p className="font-master text-5xl text-center text-red-600 font-bold stroke-black lg:mt-8 leading-normal">
             O MELHOR SERVIÇO DE STREAMING DO BRASIL DISPONÍVEL PARA VOCÊ!
           </p>
         </motion.div>
