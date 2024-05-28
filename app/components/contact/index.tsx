@@ -18,7 +18,7 @@ export const Contact = () => {
       </div>
       <div className="w-full flex items-center justify-center py-16 text-2xl font-bold">
         <Link href={"https://api.whatsapp.com/send?phone=5581994119761"} target="_blank">
-          <Button className="w-[600px] h-[100px]">
+          <Button className="lg:w-[600px] w-full lg:h-[100px] h-full">
             Solicite agora!
           </Button>
         </Link>

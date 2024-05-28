@@ -14,7 +14,7 @@ export const HeroSection = () => {
           whileInView={{ opacity: 1 }}
           exit={{ opacity: 0 }}
         >
-          <p className="font-master text-5xl text-red-600 font-bold stroke-black mt-8 leading-normal">
+          <p className="font-master text-5xl text-center text-red-600 font-bold stroke-black mt-8 leading-normal">
             O MELHOR SERVIÇO DE STREAMING DO BRASIL DISPONÍVEL PARA VOCÊ!
           </p>
         </motion.div>
@@ -27,7 +27,7 @@ export const HeroSection = () => {
           alt="Logomarca Harricine4K"
         />
       </div>
-      <div className="w-full lg:h-[755px] flex flex-col items-center justify-center">
+      <div className="w-full lg:h-[755px] flex flex-col items-center justify-center px-8 py-8 text-center">
         <p className="font-master text-xl text-neutral-200 font-semibold">
           Confira abaixo todos os nossos serviços e como contratar!
         </p>
