@@ -3,6 +3,7 @@ import './globals.css'
 import { ReactNode } from 'react'
 import { Header } from './components/header'
 import { Footer } from './components/footer'
+import { WhatsButton } from './components/button/whatsapp'
 
 const NavItems = [
   {
@@ -27,6 +28,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
     <html lang="pt-BR" className={`${inter.variable} ${plexMono.variable}`}>
       <body>
         {children}
+        <WhatsButton />
         <Footer />
       </body>
     </html>
